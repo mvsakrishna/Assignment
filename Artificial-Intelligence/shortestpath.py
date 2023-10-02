@@ -18,7 +18,14 @@ cities = {
     'Sibiu': {'Arad', 'Oradea', 'Rimnicu Vilcea', 'Fagaras'},
     'Fagaras': {'Sibiu', 'Bucharest'},
     'Pitesti': {'Craiova', 'Rimnicu Vilcea', 'Bucharest'},
-    'Bucharest': {'Fagaras', 'Pitesti'},
+    'Bucharest': {'Fagaras', 'Pitesti', 'Giurgiu', 'Urzieeni'},
+    'Giurgiu': {'Bucharest'},
+    'Urzieeni': {'Bucharest', 'Hirsova', 'Vaslui'},
+    'Hirsova': {'Urzieeni', 'Eforie'},
+    'Eforie': {'Hirsova'},
+    'Vaslui': {'Urzieeni', 'Insi'},
+    'Insi': {'Vaslui', 'Neamt'},
+    'Neamt': {'Insi'},
 }
 
 # Add nodes (cities) and edges (connections) to the graph
