@@ -42,8 +42,8 @@ print("Shortest Path from Arad to Bucharest:", shortest_path)
 
 # Visualize the graph
 pos = nx.spring_layout(G)
-nx.draw(G, pos, with_labels=True, node_size=3000, node_color='lightblue', font_size=10, font_color='black')
-nx.draw_networkx_nodes(G, pos, nodelist=shortest_path, node_color='green', node_size=3000)
+nx.draw(G, pos, with_labels=True, node_size=3000, node_color='purple', font_size=10, font_color='black')
+nx.draw_networkx_nodes(G, pos, nodelist=shortest_path, node_color='red', node_size=3000)
 nx.draw_networkx_edges(G, pos, edgelist=[(shortest_path[i], shortest_path[i + 1]) for i in range(len(shortest_path) - 1)],
                        edge_color='red', width=3)
 
